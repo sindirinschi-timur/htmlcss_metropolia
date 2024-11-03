@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+.home-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+}
+
+.home-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    background-color: #333;
+    color: #fff;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 800px;
+    height: 250px;
+}
+
+
+.products-section {
+    padding: 50px 20px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.product-header {
+    margin-bottom: 20px;
+}
+
+.product-hero {
+    background-color: #333;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0 auto 20px auto;
+}
+
+.product-hero img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-img {
+    background-color: #333;
+    color: #fff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+}
+
+
+
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.contact-section address {
+    line-height: 1.5;
+}
+
+.map {
+    background-color: #333;
+    color: #fff;
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        flex-direction: column;
+    }
+    .map {
+        width: 100%;
+    }
+}
+
+.map img {
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+}
+
